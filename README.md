@@ -19,7 +19,7 @@ Run this command line tool `cargo install guessing-game`
 Then run the game from console:
 
 ```
-geussing-game.exe
+guessing-game.exe
 Guess the number !
 The secret number is: 25
 Please enter your guess :
