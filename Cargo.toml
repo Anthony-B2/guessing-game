@@ -1,11 +1,25 @@
 [package]
-name = "guessing_game"
+name = "guessing-game"
 version = "0.1.0"
 authors = ["a.baltzinger <anthonybaltzinger@gmail.com>"]
 edition = "2018"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/anthony-b2/guessing-game"
+documentation = "https://docs.rs/guessing-game"
+homepage = "https://github.com/anthony-b2/guessing-game"
+description = """
+This is a fun game where you have to find out the
+secret number taken by the computer
+"""
+categories = ["game"]
+autotests = false
+exclude = ["/.travis.yml", "/appveyor.yml"]
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[badges]
+travis-ci = { repository = "anthony-b2/guessing-game" }
+appveyor = { repository = "anthony-b2/guessing-game" }
 
 [dependencies]
-
+# For the computer to pick a secret number
 rand = "0.4.0"
