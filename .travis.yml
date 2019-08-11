@@ -1,18 +1,15 @@
-dist: trusty
-sudo: required
 language: rust
 rust:
   - 1.28.0
   - stable
   - beta
   - nightly
-script: ci/script.sh
-addons:
-after_success:
+script:
+  - cargo build --verbose --all
+  - cargo test --verbose --allh
 notifications:
   email:
     on_success: never
 branches:
   only:
     - master
-    - auto
