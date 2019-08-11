@@ -6,7 +6,7 @@ This project is made with [The Rust Programming Language Documentation](https://
 
 [![Build Status](https://travis-ci.com/anthony-b2/guessing-game.svg?branch=master)](https://travis-ci.com/anthony-b2/guessing-game)
 [![Build status](https://ci.appveyor.com/api/projects/status/github/anthony-b2/guessing-game?svg=true)](https://ci.appveyor.com/project/anthony-b2/guessing-game)
-[![Rust](https://img.shields.io/badge/rust-1.28.0%2B-blue.svg?maxAge=3600)](https://github.com/anthony-b2/guessing-game)
+[![Rust](https://img.shields.io/badge/rust-1.36.0%2B-blue.svg?maxAge=3600)](https://github.com/anthony-b2/guessing-game)
 
 ### Documentation
 
