@@ -18,7 +18,14 @@ Run this command line tool `cargo install guessing-game`
 
 Then run the game from console:
 
-```geussing-game.exe
+```
+geussing-game.exe
+Guess the number !
+The secret number is: 25
+Please enter your guess :
+25
+you guessed : 25
+You win!
 ```
 
 ### License
