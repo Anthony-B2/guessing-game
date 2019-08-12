@@ -7,10 +7,9 @@ rust:
 matrix:
   allow_failures:
     - rust: nightly
-services:
-  - docker
 script:
-- make test-docker-env
+  - cargo build --verbose --all
+  - cargo test --verbose --all
 cache:
     apt: true
     directories:
